@@ -1,0 +1,93 @@
+C301C111221122334455660300    action 
+
+C0018100030101010800FF0200    get
+ 
+C101C1AABB11223344556602000F83    set
+
+
+
+
+
+
+
+
+get:::
+{{{{{{{{{{{{
+
+////////
+C00181000100002A0000FF0100 ::logical device name :object logical name
+
+C00181000100002A0000FF0200 ::logical device name :object value  LDN
+
+//////////
+C00181000F0000280000FF0100 ::Association LN :object logical name
+
+C00181000F0000280000FF0200 ::Association LN :object list
+
+C00181000F0000280000FF0300 ::Association LN :associated partners id
+
+C00181000F0000280000FF0400 ::Association LN :application context name
+
+C00181000F0000280000FF0500 ::Association LN :xDLMS context info
+
+C00181000F0000280000FF0600 ::Association LN :authentication mechanism name
+
+C00181000F0000280000FF0700 ::Association LN :LLS secret
+
+C00181000F0000280000FF0800 ::Association LN :association status
+
+////////
+C0018100030000600900FF0100 ::Temperature sensor 0 :object logical name
+
+C0018100030000600900FF0200 ::Temperature sensor 0 :object value
+
+C0018100030000600900FF0300 ::Temperature sensor 0 :scaler unit
+
+}}}}}}}}}}}
+
+
+
+
+
+set:::
+
+{{{{{{
+/////
+C101C100030000600900FF02000F83 ::Temperature sensor 0 : set to int 11
+
+C101C1000100002A0000FF02000906909090909090  :: logical device name :object value : set to ZZZZZZ
+
+C101C100010000280000FF08001670 ::Association LN :association status: set to A
+
+
+}}}}}}}
+
+
+
+
+
+action:::
+
+{{{{{{
+/////
+C301C100030000600900FF0100 ::Temperature sensor 0 :Reset
+
+}}}}}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
